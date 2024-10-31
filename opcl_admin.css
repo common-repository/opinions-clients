@@ -1,0 +1,583 @@
+
+.opcl_wrap{
+    padding-right: 20px;
+}
+
+.opcl_wrap h1.opcl_wp-heading-inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.opcl_wrap .opcl_wp-heading-inline+.opcl_page-title-action {
+    margin-left: 0;
+}
+
+.opcl_wrap .opcl_page-title-action, .opcl_wrap .opcl_page-title-action:active {
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+}
+
+.opcl_wp-header-end {
+    visibility: hidden;
+    margin: -2px 0 0;
+}
+
+.opcl_subsubsub {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+    float: left;
+    color: #666;
+}
+
+.opcl_subsubsub li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.opcl_subsubsub a.opcl_current {
+    color: #000;
+}
+
+.opcl_subsubsub a .opcl_count, .opcl_subsubsub a.opcl_current .opcl_count {
+    color: #555d66;
+    font-weight: 400;
+}
+
+.opcl_subsubsub a {
+    line-height: 2;
+    padding: .2em;
+    text-decoration: none;
+}
+
+.opcl_subsubsub a.opcl_current {
+    font-weight: 600;
+    border: none;
+}
+
+.opcl_tablenav {
+    clear: both;
+    height: 30px;
+    margin: 6px 0 4px;
+    vertical-align: middle;
+}
+
+.opcl_tablenav .opcl_tablenav-pages {
+    float: right;
+    margin: 3px 0 9px;
+}
+
+.opcl_tablenav .opcl_displaying-num {
+    margin-right: 7px;
+}
+
+.opcl_wrap .opcl_button[disabled]{
+    color: #a0a5aa!important;
+    border-color: #ddd!important;
+    background: #f7f7f7!important;
+    box-shadow: none!important;
+    text-shadow: 0 1px 0 #fff!important;
+    cursor: default;
+    transform: none!important;
+}
+
+.opcl_wrap .opcl_button{
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.opcl_tablenav .opcl_tablenav-pages .opcl_button {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 28px;
+    min-height: 28px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.opcl_row-title {
+    font-size: 14px!important;
+    font-weight: 600;
+}
+
+.opcl_row-actions {
+    color: #ddd;
+    font-size: 13px;
+    padding: 2px 0 0;
+    position: relative;
+    left: -9999em;
+}
+
+.opcl_row-actions span.opcl_trash a{
+	color: #a00;
+}
+
+tr:hover .opcl_row-actions {
+    position: static;
+}
+
+.opcl_row-actions .opcl_trash a:hover{
+    color: #dc3232;
+    border: none;
+}
+
+table.opcl_fixed {
+    table-layout: fixed;
+}
+
+table.opcl_widefat {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.opcl_widefat * {
+    word-wrap: break-word;
+}
+
+.opcl_widefat {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+.opcl_striped>tbody>:nth-child(even), 
+ul.opcl_striped>:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.opcl_striped>tbody>:nth-child(odd), 
+ul.opcl_striped>:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.opcl_striped>thead>:nth-child(odd),
+.opcl_striped>tfoot>:nth-child(odd){
+    background-color: #ffffff;
+}
+
+.opcl_widefat td, .opcl_widefat th {
+    color: #555;
+}
+
+.opcl_widefat a {
+    text-decoration: none;
+}
+
+.opcl_widefat tfoot td, .opcl_widefat tfoot th, .opcl_widefat thead td, .opcl_widefat thead th{
+    line-height: 1.4em;
+}
+
+.opcl_widefat thead td, .opcl_widefat thead th {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.opcl_widefat tfoot td, .opcl_widefat tfoot th {
+    border-top: 1px solid #e1e1e1;
+}
+
+.opcl_widefat tfoot td, .opcl_widefat th, .opcl_widefat thead td {
+    font-weight: 400;
+}
+
+.opcl_widefat td, .opcl_widefat th {
+    padding: 8px 10px;
+}
+
+.opcl_widefat tfoot td, .opcl_widefat th, .opcl_widefat thead td {
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.opcl_tabs_section .dashicons.opcl_rotate180{
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.opcl_tabs_section .dashicons{
+	margin-right: 8px;
+}
+
+.opcl_tabs_section .opcl_liDisplayRequired .dashicons.dashicons-info{
+	margin-right: 0px;
+}
+
+.opcl_tabs_section{
+	margin: 20px 20px 20px 0;
+	background-color: white;
+	/*border-top: 1px solid #eee;
+	border-left: 1px solid #eee;*/
+	min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border-radius: 4px;
+}
+
+.opcl_tabs_title{
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	font-weight: bold;
+	display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+	font-size: 20px;
+    min-height: 32px;
+}
+
+.opcl_tabs_title > div{
+    line-height: initial;
+    display: flex;
+}
+
+.opcl_labelWPeditor{
+	display: flex;
+    justify-content: space-between;
+}
+
+.opcl_tabs_tips{
+	padding: 10px;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background-color: #fff;
+}
+
+.opcl_tabs_tips span{
+	font-weight: bold;
+}
+
+.opcl_tabs_title div:nth-child(2){
+	display: flex;
+    align-items: baseline;
+}
+
+.opcl_tabs_title div:nth-child(2) a{
+	font-size: 13px;
+    color: #a00;
+}
+
+.opcl_tabs_title div:nth-child(2) .submit{
+    margin: 0 20px;
+    padding: 0;
+}
+
+.opcl_tabs_container{
+	display: -webkit-box!important;display: -ms-flexbox!important;display: -webkit-flex!important;display: flex!important;
+	align-items: flex-start;
+}
+
+.opcl_menu_container {
+	width: 20%;
+}
+
+.opcl_menu_container ul{
+	margin: 0;
+}
+
+.opcl_menu_container li a{
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+.opcl_menu_container li a:focus{
+	box-shadow: none;
+}
+
+.opcl_menu_container li{
+	border-bottom: 1px solid #eee;
+	margin: 0;
+	color: #0073aa;
+}
+
+.opcl_tabs_content{
+	display: none;
+}
+
+.opcl_tabs_content > div{
+	padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.opcl_tabs_content > div:last-child{
+	padding-right: 0px;
+}
+
+.opcl_tabs_content_active{
+	display: flex;
+}
+
+.opcl_width100{
+	width: 100%
+}
+
+.opcl_width50{
+	width: 50%;
+}
+
+.opcl_width33{
+	width: 33%;
+}
+
+.opcl_width25{
+	width: 25%;
+}
+
+.opcl_content_container{
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	padding: 10px 40px;
+	margin: 0;
+	width: 100%;
+	min-height: 350px;
+}
+
+.opcl_tabs_active{
+	background-color: #eee;
+}
+
+.opcl_fieldsContent .dashicons-editor-help{
+	cursor: help;
+	margin-left: 2px;
+	color: black;
+	float: right;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.opcl_tabs_section .opcl_tabLabel{
+	cursor: help;
+}
+
+.opcl_field{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.opcl_field .opcl_fieldLabelTop{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: initial;
+}
+
+.opcl_field .opcl_fieldLabelTop ~ .opcl_fieldsContent{
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.opcl_tabs_content .opcl_field button{
+	margin-right: 0px;
+}
+
+.opcl_adminNotice{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #4ca556;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.opcl_adminNoticeError{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #cc4e3b;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.opcl_adminNoticeWarning{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #ea9c00;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.opcl_btnClose{
+	float: right;
+	cursor: pointer;
+}
+
+#opcl_reminder_parameter_general{
+	visibility: hidden;
+	display: none;
+}
+
+
+
+
+
+
+.opcl_field label{
+	width: 300px;
+	overflow: hidden;
+}
+
+.opcl_field input[disabled]{
+	background-color: #f3f3f3;
+}
+
+.opcl_fieldsContent input[type="text"], 
+.opcl_fieldsContent input[type="number"], 
+.opcl_fieldsContent input[type="email"], 
+.opcl_fieldsContent input[type="date"], 
+.opcl_fieldsContent input[type="time"], 
+/*.opcl_fieldsContent button[type="button"], */
+.opcl_fieldsContent a, 
+.opcl_fieldsContent textarea,
+.opcl_fieldsContent select,
+.opcl_fieldsContent .opcl_noedit{
+	width: 100%;
+    max-width: 100%;
+    border-radius: 2px;
+    border-color: #ddd;
+}
+
+.opcl_fieldsContent input[type="checkbox"], 
+.opcl_fieldsContent input[type="radio"] {
+    margin-bottom: -5px;
+}
+
+.opcl_fieldsContent{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.opcl_field a{
+	word-break: break-all;
+}
+
+.opcl_ui_verticallist{
+	display: flex;
+	flex-direction: column;
+}
+
+.opcl_ui_verticallist > div,
+.opcl_ui_verticallist > form > div
+{
+	margin: 4px 0;
+}
+
+.opcl_marginTopColumn{
+    margin-top: 37px;
+}
+
+.opcl_hiddenWPEditor{
+	display: none;
+}
+
+.opcl_mt20{
+	margin-top: 20px;
+}
+
+.opcl_mt10{
+	margin-top: 10px;
+}
+
+.widefat.opcl_table td, 
+.widefat.opcl_table th{
+	vertical-align: middle;
+	align-items: center;
+}
+
+.opcl_table caption{
+	padding: 8px;
+    text-align: left;
+	font-weight: bold;
+    /*background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-top: none;*/
+	color: #0073aa;
+
+}
+
+#opcl_opcl_cancelEditFieldButton{
+	visibility: hidden;
+    text-align: right;
+    margin-right: 20px;
+    width: initial;
+}
+
+.opcl_tabs_content .submit{
+    text-align: right;
+}
+
+.opcl_adminHelp{
+    display: flex;
+    flex-direction: column;
+}
+
+.opcl_adminHelp img{
+    margin: 10px auto;
+    border: 1px solid #b0b0b0;
+    width: 100%;
+}
+
+.opcl_adminHelp p{
+    margin: 5px 0;
+}
+
+.opcl_color{
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 8px;
+}
